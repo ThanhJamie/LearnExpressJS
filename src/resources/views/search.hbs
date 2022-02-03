@@ -2,8 +2,8 @@
     <form method="get" action="/news">
         <div class="mb-3">
             <label for="search-input" class="form-label">Nhập từ khóa</label>
-            {{!-- <input type="text" name="fullname" />
-            <input type="text" name="age" /> --}}
+            {{! <input type="text" name="fullname" />
+            <input type="text" name="age" /> }}
             <input
                 type="text"
                 class="form-control"
@@ -11,6 +11,14 @@
                 name="q"
                 placeholder="Nhập từ khóa cần tìm kiếm"
             />
+            <div class="mt-2">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
         </div>
         <button type="submit" class="btn btn-primary">Tìm kiếm</button>
     </form>
