@@ -1,0 +1,17 @@
+<div class="search-form mt-4">
+    <form method="get" action="/news">
+        <div class="mb-3">
+            <label for="search-input" class="form-label">Nhập từ khóa</label>
+            {{!-- <input type="text" name="fullname" />
+            <input type="text" name="age" /> --}}
+            <input
+                type="text"
+                class="form-control"
+                id="search-input"
+                name="q"
+                placeholder="Nhập từ khóa cần tìm kiếm"
+            />
+        </div>
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </form>
+</div>
