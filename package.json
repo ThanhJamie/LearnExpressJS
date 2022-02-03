@@ -23,11 +23,15 @@
     "homepage": "https://github.com/ThanhJamie/LearnExpressJS#readme",
     "dependencies": {
         "express": "^4.17.2",
-        "express-handlebars": "^6.0.2"
+        "express-handlebars": "^6.0.2",
+        "mongoose": "^6.2.0"
     },
     "devDependencies": {
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.3",
         "morgan": "^1.10.0",
         "node-sass": "^7.0.1",
-        "nodemon": "^2.0.15"
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.1"
     }
 }
